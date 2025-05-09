@@ -61,6 +61,8 @@ INSERT INTO Orders (OrderID, CustomerName) VALUES
 (102, 'Jane Smith'),
 (103, 'Emily Clark');
 
+/* New table in 2NF form */
+
 CREATE TABLE OrderItems (
     OrderID INT,
     Product VARCHAR(100),
@@ -75,5 +77,3 @@ INSERT INTO OrderItems (OrderID, Product, Quantity) VALUES
 (102, 'Keyboard', 1),
 (102, 'Mouse', 2),
 (103, 'Phone', 1);
-
-
